@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>🎂 케이크 초 계산기 (한국 나이) 🎂</title>
+  </head>
+  <body>
+    <h2>🎂 생일 축하해! 🎂</h2>
+    <label for="birthdate">생년월일 (YYYYMMDD):</label>
+    <input type="text" id="birthdate" placeholder="예: 19470417" maxlength="8" />
+    <button onclick="setupCandles()">초 배치하기</button>
+
+    <canvas id="cakeCanvas"></canvas>
+    <script src="app.js"></script>
+    <script src="drawing.js"></script>
+  </body>
+</html>
